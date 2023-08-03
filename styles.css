@@ -1,0 +1,397 @@
+html {
+  background-image: url(photos/background2.jpeg);
+  background-size: cover;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: #fcfffc;
+}
+
+.listMenu a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #fcfffc;
+  border-left: 2px solid #f4b7c7;
+  padding-left: 5px;
+  transition: all 0.2s ease;
+}
+
+.listMenu a:hover {
+  border-left: 2px solid #f4b7c7;
+  padding-left: 10px;
+  transition: all 0.2s ease;
+}
+
+.listMenu li {
+  margin: 20px 0px;
+  color: #fcfffc;
+}
+
+.listMenu {
+  margin-bottom: 50px;
+}
+
+.footerMenu {
+  display: flex;
+  /* margin-top: 50px; */
+  color: #fcfffc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.footerText {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: #fcfffc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.logo {
+  margin-top: 200px;
+  width: 100px;
+  justify-content: start;
+  align-items: start;
+}
+
+.menu {
+  padding: 25vh 50px;
+  position: fixed;
+  background: rgba(20, 20, 20, 0.5);
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  border-right: 7px solid #fcfffc;
+  left: -407px;
+  top: 0px;
+}
+
+.menu:hover {
+  left: 0px;
+  transition: all 0.5s ease;
+}
+
+.headerHome {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-size: 40px;
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+  transition: 1s ease;
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #dbeae3;
+}
+
+.headerDuel {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-size: 40px;
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+  transition: 1s ease;
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #dbeae3;
+}
+
+.headerSkins {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-size: 40px;
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+  transition: 1s ease;
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #dbeae3;
+}
+
+.headerTeam {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-size: 40px;
+  display: flex;
+  justify-content: start;
+  margin-top: 5px;
+  transition: 1s ease;
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #dbeae3;
+}
+
+.mainDiv {
+  border-radius: 20px;
+  box-shadow: 20px 20px 78px, -20px -20px 78px;
+  border: 100px black;
+  margin-top: 120px;
+  margin-right: 350px;
+  margin-left: 355px;
+  height: auto;
+  width: auto;
+  transition: 0.5s ease;
+}
+
+.upBar {
+  margin-top: 10px;
+  background-color: #aaaaaa;
+  width: auto;
+  border-radius: 10px;
+  /* box-shadow: 20px 20px 78px #7e7e7e, -20px -20px 78px #aaaaaa; */
+  border-color: black;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.upbarButton {
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px;
+  transition: 0.5s ease;
+  user-select: none;
+  cursor: pointer;
+  padding: 10 100 10 100;
+}
+
+.upbarButton:hover {
+  color: #368cc2;
+  background-color: #aaaaaa;
+  transform: translateX(-5%) scaleY(1.2) scaleX(1.2);
+}
+
+.teams {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Align elements to the top */
+}
+
+.teamOne,
+.teamTwo {
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.5px #dbeae3;
+  font-size: 17px;
+  font-weight: 500;
+  text-shadow: none;
+  box-shadow: transparent;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+
+.teamOne {
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+}
+
+.teamTwo {
+  background-image: linear-gradient(90deg, #fffff0, #fffff0);
+}
+
+.resultTeamOne {
+  margin-left: 30px;
+  color: white;
+}
+
+.resultTeamTwo {
+  margin-left: 30px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 10px;
+  margin-right: 10px;
+}
+
+.input {
+  /* margin: 10px 0;
+  padding: 10px; */
+  width: 200px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1.5px solid #3e3e3e;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+::placeholder {
+  color: #1c1c1c;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+
+.clearButton,
+.pickButton {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1c1c1c;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1.5px solid #3e3e3e;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.randomGunButton {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 45px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1c1c1c;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1.5px solid #3e3e3e;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.randomMap {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1c1c1c;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1.5px solid #3e3e3e;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.clearButton:hover,
+.pickButton:hover {
+  background-color: #f0f0f0;
+}
+
+.resultGunLine {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fffff0;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  text-transform: uppercase;
+}
+
+.mapLine {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #fffff0;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  text-transform: uppercase;
+}

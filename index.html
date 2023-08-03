@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stray</title>
+  </head>
+  <body class="mainSite">
+    <div class="menu" id="menu">
+      <div class="title"><h1>NAVIGATION</h1></div>
+      <div class="listMenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="duel.html">Duel</a></li>
+          <li><a href="skins.html">Skins</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+        <div class="footerMenu">
+          <img src="photos/lg.png" alt="image" class="logo" />
+          <p class="footerText">Stray 2023</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div id="headerHome" class="headerHome">
+        <div class="text-gradient">Random team picker</div>
+      </div>
+      <div class="mainDiv">
+        <div class="teams">
+          <div class="teamOne">
+            <h1>Team 1</h1>
+            <div class="resultTeamOne" id="teamOneResult">
+              <div>
+                <p id="out"></p>
+                <p id="out"></p>
+                <p id="out"></p>
+              </div>
+            </div>
+          </div>
+          <div class="center">
+            <input
+              type="text"
+              class="input"
+              placeholder="Type nickname"
+              id="inputName"
+            />
+            <div class="buttonContainer">
+              <button name="Pick button" id="pickButton" class="pickButton">
+                Pick
+              </button>
+              <button name="Clear button" id="clearButton" class="clearButton">
+                Clear
+              </button>
+            </div>
+            <button class="randomGunButton" id="randomButton">
+              Pick random Gun
+            </button>
+            <button class="randomMap" id="randomMap">Pick random Map</button>
+          </div>
+          <div class="teamTwo">
+            <h1>Team 2</h1>
+            <div class="resultTeamTwo" id="teamTwoResult">
+              <p class="out"></p>
+              <p class="out"></p>
+              <p class="out"></p>
+            </div>
+          </div>
+        </div>
+        <div class="resultGunLine" id="gunLine">
+          <h4></h4>
+        </div>
+        <div class="mapLine" id="mapLine">
+          <h4></h4>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1d8b432c3d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="fds.css" />
+  </body>
+</html>
